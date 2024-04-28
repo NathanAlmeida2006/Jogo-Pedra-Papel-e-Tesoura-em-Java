@@ -1,0 +1,12 @@
+sequenceDiagram
+  participant Usuario as Usuário
+  participant Computador as Computador
+  participant Bot as Bot
+
+  Usuario ->> Computador: Iniciar Jogo
+  Computador ->> Usuario: Solicitar Escolha (Pedra, Papel ou Tesoura)
+  Usuario ->> Computador: Enviar Escolha
+  Computador ->> Bot: Gerar Escolha
+  Bot ->> Computador: Enviar Escolha do Bot
+  Computador ->> Usuario: Determinar e Mostrar Vencedor
+
