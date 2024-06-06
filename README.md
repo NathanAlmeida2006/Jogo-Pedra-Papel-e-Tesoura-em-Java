@@ -15,7 +15,7 @@ Para executar este jogo, você precisará ter o Java Runtime Environment (JRE) i
 O projeto é dividido em dois arquivos principais:
 
 - `GameLogic.java`: Contém a lógica do jogo e os métodos auxiliares.
-- `RockPaperScissorMain.java`: Contém o método `main` e inicia o jogo.
+- `RockPaperScissorGUI.java`: Classe de interface do usuário, por ela execute o código.
 
 ## Contato:
 
