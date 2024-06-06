@@ -1,7 +1,12 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch RockPaperScissorGUI",
+            "request": "launch",
+            "mainClass": "game.RockPaperScissorGUI",
+            "projectName": "Jogo-Pedra-Papel-Tesoura"
+        }
     ]
 }
